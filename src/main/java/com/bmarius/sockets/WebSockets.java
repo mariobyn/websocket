@@ -65,7 +65,7 @@ public class WebSockets implements Runnable{
                          * if origin is server value from StaticValues
                          */
                         if(items[0].toLowerCase().trim().equals("origin")){
-                            if(items[1].toLowerCase().trim().contains(StaticValues.server))
+                            if(origin.contains(StaticValues.server))
                                 test++;
                         }
 
